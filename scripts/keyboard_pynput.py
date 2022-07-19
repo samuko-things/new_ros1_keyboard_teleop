@@ -65,6 +65,8 @@ from pynput.keyboard import Key, KeyCode, Listener
 
 
 
+## ###     read combination of more than one key i.e three keys      #####
+## ###     one can also apply it to two keys by making the key_buffer array to take two elements      #####
 key_buffer = [None, None, None]
 
 def press(key):
